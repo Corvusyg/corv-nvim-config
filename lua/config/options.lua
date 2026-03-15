@@ -16,8 +16,7 @@ vim.o.ignorecase = true
 vim.o.smartcase = true
 vim.o.smartindent = true
 vim.o.wrap = true
+vim.o.signcolumn = "yes"
 
 vim.cmd('syntax enable')
 vim.cmd('filetype plugin indent on')
-vim.diagnostic.enable(false)
-
